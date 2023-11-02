@@ -348,11 +348,11 @@
             return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 30) return '人类，你太慢了';
-        if (score <= 70) return '哼，还可以嘛';
-        if (score <= 100) return '你，你有本事再快一点（哭';
-        if (score <= 130) return '小魅魔要被你吃光了啦';
-        return '再，再也不敢欺负你们了';
+        if (score <= 30) return '黑猫受到了轻微伤害';
+        if (score <= 70) return '黑猫被揍的鼻青脸肿';
+        if (score <= 100) return '黑猫被揍的满头是包';
+        if (score <= 130) return '黑猫被揍的爬不起来';
+        return '黑猫 噶了';
     }
 
     w.toStr = function(obj) {
